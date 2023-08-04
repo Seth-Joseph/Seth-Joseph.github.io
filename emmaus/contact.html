@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = 'viewport' content="with=device-width, initial-scale=1.0">
+        <title>Emmaus Retreat Centre</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/289c06e4e2.js" crossorigin="anonymous"></script>    </head>
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><h1>Emmaus</h1></a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">ABOUT</a></li>
+                    <li><a href="index.html">MINISTRIES</a></li>
+                    <li><a href="https://tinyurl.com/mryuwsub">PRAYER REQUESTS</a></li>
+                </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>Contact  Us</h1>
+        </section>
+
+<!--------------contact us content-------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3935.6112344004778!2d76.66317927536322!3d9.45544639062389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b063bf399974f07%3A0xad92ce6607fa89a5!2sEmmaus%20Retreat%20Centre!5e0!3m2!1sen!2sau!4v1691032362232!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>Emmaus Retreat Centre</h5>
+                <p>Mallappally, Anicadu, Kerala 689589, India</p>
+            </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 xxxx xxx xxx</h5>
+                    <p></p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>dummymail.com</h5>
+                    <p></p>
+                </span>
+             </div>
+             
+        </div>
+        
+    </div>
+</section>
+
+<!--------------footer-------->
+
+<section class="footer">
+    <h4>© 2023 Emmaus Retreat Centre. All Rights Reserved</h4>
+    
+</section>
+<!--------------JS Toggle-------->
+
+        <script>
+            var navLinks  = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>
